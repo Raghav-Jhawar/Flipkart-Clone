@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@1,300&family=Yeon+Sung&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color:#2874f0 ;
+    padding: 0.3rem;
+}
+
+.header{
+    box-shadow: 5px 0px 11px 1px black;
+}
+
+.sections{
+    background-color: #2874f0;
+    width:80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sections .right{
+    width: 20vw;
+    /* border: 2px solid red; */
+}
+
+.sections .left{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+     /* border: 2px solid red; */
+}
+
+.logo img{
+    height: 3rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+input[type=search]{
+    width: 35vw;
+}
+
+.btn{
+    outline: none;
+    padding:0.4rem 0.4rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.sections .right ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sections .right ul li{
+    list-style-type: none;
+}
+
+.sections .right ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    display: block;
+    padding:0.4rem;
+}
+
+.login{
+    border: none;
+    background-color: white;
+    border-radius: 0.3rem;
+}
+
+.sections .right ul li a:hover{
+    text-decoration: underline;
+}
+
+/* CSS FOR SALES SECTIONS */
+.sales{
+    background-color:#2874f0 ;
+    width: 98vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+    border: 5px solid #2874f0;
+    border-radius: 0.5rem;
+    padding:0 0.4rem;
+}
+
+.sales .left img{
+    height: 6rem;
+    width: 15rem;
+}
+
+.image img{
+    display: block;
+    margin: auto;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.image img:hover{
+    transform: scale(1.1);
+    transition: all ease-out 0.1s;
+}
+
+.sales .right{
+    /* border: 5px solid yellow; */
+    width: 60vw;
+}
+
+.sales .left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 1rem;
+    /* border: 2px solid green; */
+}
+
+.sales .right ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sales .right ul li{
+    list-style-type: none;
+    margin:0.1rem 0.3rem;
+}
+
+.sales .right ul li a{
+    text-decoration: none;
+}
+
+h4{
+    text-align: center;
+    color: white;
+    margin-top: 0.4rem;
+}
+
+/* CSS FOR THE SLIDER SECTION OF THE WEBSITE  */
+
+.slider img{
+    border-radius: 1px;
+    width: 98vw;
+    margin:0.7rem auto;
+    display: block;
+    height: 30vw;
+    border-radius: 0.3rem;
+}
+
+.container{
+    background: white;
+    width: 96vw;
+    margin: 0.6rem auto;
+    border-radius: 0.3rem;
+}
+
+.container h2{
+    padding: 0.5rem;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 2rem;
+}
+
+.cards{
+    background: white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem;
+    overflow: scroll;
+}
+
+.lines{
+    padding: 0.5rem;
+    width: 12vw;
+}
+
+.lines p{
+    text-align: center;
+}
+
+.card-items img{
+    height: 6vw;
+    width: 6vw;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.card-items img:hover{
+    transform: scale(1.1);
+    transition: all ease-out 0.1s;
+}
+
+.mx-3{
+    display: block;
+    width: 93vw;
+    margin: auto;
+}
+
+/* CSS FOR THE FOOTER SECTION  */
+.footer{
+    background: #2874f0;
+    width: 98vw;
+    margin: 0.5rem auto;
+    padding: 1rem 0rem;
+    border-radius: 0.3rem;
+}
+
+.footer p{
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 1.5rem;
+}
+
+.font{
+    font-family: 'Carter One', cursive;
+}
+
+.orange{
+    color: rgb(255, 103, 1);
+}
+
+.green{
+    color: rgb(91, 255, 112);
+}
+
+
+/* CSS FOR THE LOGIN PAGE */
+
+.header h1{
+    font-family: 'Yeon Sung', cursive;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    padding-top: 0;
+}

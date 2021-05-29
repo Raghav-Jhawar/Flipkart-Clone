@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/login.css">
+    <link rel="shortcut icon" href="/static/flipkartTitle.png" type="image/x-icon">
+    <link rel="stylesheet" href="/static/login-phone.css">
+    <title>Online Shopping Site for mobile phones, groceries, electronics and homeWares</title>
+</head>
+<body>
+    <!-- HEADER OF THE WEBSITE -->
+    <header class="header">
+        <h1>Welcome To Login Page</h1>
+    </header>
+
+    <div class="container">
+        <form action="/" method="post" class="form">
+            <div class="label">
+                <label for="emai">E-mail:</label>
+            </div>
+            
+            <input type="email" name="email" id="email" placeholder="Enter your E-mail" autocomplete="off">
+
+            <div class="label">
+                <label for="emai">Password:</label>
+            </div>
+
+            <input type="password" name="password" id="password" placeholder="Enter the password">
+            
+            <div class="button">
+                <button class="btn" type="submit" name="button">Login</button>
+                <button class="btn" type="submit" name="button">Sign Up</button>
+            </div>
+            
+        </form>
+    </div>
+
+
+
+<%- include('footer.ejs'); -%>

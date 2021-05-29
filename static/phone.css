@@ -1,0 +1,218 @@
+@media screen and (max-width:1220px) {
+
+    .sales .left img{
+        height: 5rem;
+        width: 15rem;
+    }
+
+    .container h2{
+        font-size: 1.6rem;
+    }
+
+    .card-items{
+        margin: 0rem 0rem;
+    }
+
+    .lines p{
+        font-size: 0.8rem;
+    }
+
+    .lines{
+        width: 13vw;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+
+    .sections{
+        justify-content:space-around;
+        width: 70vw;
+    }
+    body{
+        background: yellow;
+    }
+
+    .lines{
+        width: 15vw;
+    }
+
+    .lines p{
+        font-size: 0.7rem;
+    }
+
+    .card-items img{
+        height: 5vw;
+        width: 5vw;
+    }
+
+    .sales{
+        flex-wrap: wrap;
+    }
+
+    .image img{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .sales .left img{
+        height: 5rem;
+        width: 10rem;
+    }
+
+    .sales .right ul{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+
+    body{
+        background: tomato;
+    }
+
+    .sales h4{
+        font-size: 0.8rem;
+    }
+
+    .sales.left{
+        margin-left: 0rem;
+    }
+
+    .sales .left img{
+        height: 4rem;
+        width: 10rem;
+    }
+
+    .sales .right ul li{
+        margin: 0rem 0.2rem;
+    }
+
+    .sections{
+        width: 90vw;
+        justify-content: left;
+    }
+
+    .footer p{
+        font-size: 1rem;
+    }
+
+    .card-items img {
+        height: 7vw;
+        width: 7vw;
+    }
+
+
+}
+
+@media screen and (max-width:720px) {
+
+    .sales .left img{
+        height: 3rem;
+        width: 7rem;
+    }
+
+    body{
+        background: lightblue;
+    }
+
+    .sales .left{
+        margin-left: 0rem;
+    }
+
+    .sales .right{
+        width: 70vw;
+    }
+
+    .sales h4{
+        font-size: 0.6rem;
+        font-weight: lighter;
+    }
+
+    .card-items img {
+        height: 9vw;
+        width: 9vw;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .sales{
+        margin-top: 0.5rem;
+    }
+
+    .slider img{
+        margin: 0.5rem auto;
+    }
+
+    .sales .left img{
+        height: 3rem;
+        width: 6rem;
+    }
+
+    .sales .right{
+        width: 65vw;
+    }
+
+    .sales .right ul li:last-child, .sales .right ul li:nth-child(2){
+        display: none;
+    }
+
+    input,.btn{
+        font-size: 0.8rem;
+    }
+
+    .sections .right ul li a{
+        font-size: 0.8rem;
+    }
+
+    .logo img{
+        height: 2.5rem;
+    }
+
+    .container h2{
+        font-size: 1rem;
+    }
+
+    .lines{
+        width:20vw;
+    }
+
+    .card-items img {
+        height: 13vw;
+        width: 13vw;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+
+    .sales .left img{
+        height: 2rem;
+        width: 5rem;
+    }    
+
+    .image img{
+        height: 2rem;
+        width: 2rem;
+    }
+
+    input,.btn{
+        font-size: 0.6rem;
+    }
+
+    .sections .right ul li a{
+        font-size: 0.6rem;
+    }
+
+    .logo img{
+        height: 2.2rem;
+    }
+
+    .lines{
+        width:25vw;
+    }
+
+}
