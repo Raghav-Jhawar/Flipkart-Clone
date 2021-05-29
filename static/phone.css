@@ -29,9 +29,6 @@
         justify-content:space-around;
         width: 70vw;
     }
-    body{
-        background: yellow;
-    }
 
     .lines{
         width: 15vw;
@@ -67,10 +64,6 @@
 }
 
 @media screen and (max-width:850px) {
-
-    body{
-        background: tomato;
-    }
 
     .sales h4{
         font-size: 0.8rem;
@@ -111,10 +104,6 @@
     .sales .left img{
         height: 3rem;
         width: 7rem;
-    }
-
-    body{
-        background: lightblue;
     }
 
     .sales .left{

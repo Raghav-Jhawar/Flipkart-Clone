@@ -74,6 +74,9 @@ input{
 /* CSS FOR THE FOOTER SECTION  */
 .footer{
     background: #2874f0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 98vw;
     margin: 0.5rem auto;
     padding: 1rem 0rem;
