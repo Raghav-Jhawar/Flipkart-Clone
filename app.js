@@ -3,6 +3,7 @@ const path = require("path");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
+const port = process.env.PORT || 2000;
 
 const app = express();
 app.use(bodyParser.urlencoded({extended : true}));
@@ -23,6 +24,6 @@ app.get("/login",(req,res)=>{
 
 
 
-app.listen(2000, ()=>{
-    console.log("the app is listening at https://localhost:2000");
+app.listen(port, ()=>{
+    console.log(`the app is listening at https://localhost:${port}`);
 })
